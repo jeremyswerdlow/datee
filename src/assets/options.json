@@ -1,0 +1,372 @@
+{
+    "forms": [
+        {
+            "id": "location",
+            "title": "Location",
+            "type": "binary",
+            "description": "Would you rather we stay in, or go out?",
+            "options": [
+                {
+                    "id": "in",
+                    "title": "In",
+                    "description": "keep it cozy",
+                    "pictures": [
+                        {
+                            "type": "image",
+                            "src": "/src/assets/location/in.jpg",
+                            "alt": ""
+                        }
+                    ]
+                },
+                {
+                    "id": "out",
+                    "title": "Out",
+                    "description": "hit the town!",
+                    "pictures": [
+                        {
+                            "type": "image",
+                            "src": "/src/assets/location/out.jpg",
+                            "alt": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "attire",
+            "title": "Attire",
+            "type": "multi",
+            "description": "How nicely do you want to dress?",
+            "options": [
+                {
+                    "id": "casual",
+                    "title": "Casual",
+                    "description": "Keep it comfy, nothing too serious",
+                    "pictures": [
+                        {
+                            "type": "image",
+                            "src": "/src/assets/attire/casual.jpg",
+                            "alt": ""
+                        }
+                    ]
+                },
+                {
+                    "id": "nice",
+                    "title": "Nice",
+                    "description": "I'm feeling cute today!",
+                    "pictures": [
+                        {
+                            "type": "image",
+                            "src": "/src/assets/attire/nice.jpg",
+                            "alt": ""
+                        }
+                    ]
+                },
+                {
+                    "id": "fancy",
+                    "title": "Fancy",
+                    "description": "Let's show them how it's done",
+                    "pictures": [
+                        {
+                            "type": "image",
+                            "src": "/src/assets/attire/fancy.jpg",
+                            "alt": ""
+                        }
+                    ]
+                },
+                {
+                    "id": "formal",
+                    "title": "Formal",
+                    "description": "Anything less than a suit is unacceptable!",
+                    "pictures": [
+                        {
+                            "type": "image",
+                            "src": "/src/assets/attire/formal.jpg",
+                            "alt": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "cuisine",
+            "title": "Cuisine",
+            "type": "binary",
+            "description": "What kind of food sounds best?",
+            "options": [
+                {
+                    "id": "thai",
+                    "title": "Thai",
+                    "description": "Tastes (hopefully) like home",
+                    "pictures": [
+                        {
+                            "type": "image",
+                            "src": "/src/assets/cuisine/thai.jpg",
+                            "alt": ""
+                        }
+                    ]
+                },
+                {
+                    "id": "chinese",
+                    "title": "Chinese",
+                    "description": "Saucy, stir-fried, tasty",
+                    "pictures": [
+                        {
+                            "type": "image",
+                            "src": "/src/assets/cuisine/chinese.jpg",
+                            "alt": ""
+                        }
+                    ]
+                },
+                {
+                    "id": "american",
+                    "title": "American",
+                    "description": "Burgers, chips, steaks. Basic and easy",
+                    "pictures": [
+                        {
+                            "type": "image",
+                            "src": "/src/assets/cuisine/american.jpg",
+                            "alt": ""
+                        }
+                    ]
+                },
+                {
+                    "id": "mexican",
+                    "title": "Mexican",
+                    "description": "Rustic and flavourful",
+                    "pictures": [
+                        {
+                            "type": "image",
+                            "src": "/src/assets/cuisine/mexican.jpg",
+                            "alt": ""
+                        }
+                    ]
+                },
+                {
+                    "id": "picnic",
+                    "title": "Picnic",
+                    "description": "It's so nice out, let's enjoy the weather while we have it!",
+                    "pictures": [
+                        {
+                            "type": "image",
+                            "src": "/src/assets/cuisine/picnic.jpg",
+                            "alt": ""
+                        }
+                    ]
+                },
+                {
+                    "id": "fried_chicken",
+                    "title": "Fried Chicken",
+                    "description": "Crispy and delicious",
+                    "pictures": [
+                        {
+                            "type": "image",
+                            "src": "/src/assets/cuisine/fried_chicken.jpg",
+                            "alt": ""
+                        }
+                    ]
+                },
+                {
+                    "id": "hotpot",
+                    "title": "Hotpot",
+                    "description": "Steamy fun",
+                    "pictures": [
+                        {
+                            "type": "image",
+                            "src": "/src/assets/cuisine/hotpot.jpg",
+                            "alt": ""
+                        }
+                    ]
+                },
+                {
+                    "id": "bbq",
+                    "title": "BBQ (Cook it yourself)",
+                    "description": "Grilled fresh to your liking",
+                    "pictures": [
+                        {
+                            "type": "image",
+                            "src": "/src/assets/cuisine/bbq.jpg",
+                            "alt": ""
+                        }
+                    ]
+                },
+                {
+                    "id": "southern",
+                    "title": "Southern",
+                    "description": "Sweet saucy spicy, dripping in fat",
+                    "pictures": [
+                        {
+                            "type": "image",
+                            "src": "/src/assets/cuisine/southern.jpg",
+                            "alt": ""
+                        }
+                    ]
+                },
+                {
+                    "id": "korean",
+                    "title": "Korean",
+                    "description": "Whether its jokbal or tteok, a fan favorite",
+                    "pictures": [
+                        {
+                            "type": "image",
+                            "src": "/src/assets/cuisine/korean.jpg",
+                            "alt": ""
+                        }
+                    ]
+                },
+                {
+                    "id": "sushi",
+                    "title": "Sushi",
+                    "description": "Fresh and delicious",
+                    "pictures": [
+                        {
+                            "type": "image",
+                            "src": "/src/assets/cuisine/sushi.jpg",
+                            "alt": ""
+                        }
+                    ]
+                },
+                {
+                    "id": "ramen",
+                    "title": "Ramen",
+                    "description": "Soul-warming",
+                    "pictures": [
+                        {
+                            "type": "image",
+                            "src": "/src/assets/cuisine/ramen.jpg",
+                            "alt": ""
+                        }
+                    ]
+                },
+                {
+                    "id": "mala_skewers",
+                    "title": "Mala Skewers",
+                    "description": "Food, on a stick!",
+                    "pictures": [
+                        {
+                            "type": "image",
+                            "src": "/src/assets/cuisine/mala_skewers.jpg",
+                            "alt": ""
+                        }
+                    ]
+                },
+                {
+                    "id": "seafood",
+                    "title": "Seafood",
+                    "description": "Catch of the sea",
+                    "pictures": [
+                        {
+                            "type": "image",
+                            "src": "/src/assets/cuisine/seafood.jpg",
+                            "alt": ""
+                        }
+                    ]
+                },
+                {
+                    "id": "pub",
+                    "title": "Pub Food",
+                    "description": "Fish and chips and sunday roast, rustic and charming.",
+                    "pictures": [
+                        {
+                            "type": "image",
+                            "src": "/src/assets/cuisine/pub.jpg",
+                            "alt": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "activity",
+            "title": "Activity",
+            "type": "binary",
+            "description": "Beyond a meal, how should we spend our time?",
+            "options": [
+                {
+                    "id": "none",
+                    "title": "None",
+                    "description": "Let's just focus on the food",
+                    "pictures": [
+                        {
+                            "type": "image",
+                            "src": "/src/assets/activity/none.jpg",
+                            "alt": ""
+                        }
+                    ]
+                },
+                {
+                    "id": "movie",
+                    "title": "Movie",
+                    "description": "Find us something to watch",
+                    "pictures": [
+                        {
+                            "type": "image",
+                            "src": "/src/assets/activity/movie.jpg",
+                            "alt": ""
+                        }
+                    ]
+                },
+                {
+                    "id": "museum",
+                    "title": "Museum",
+                    "description": "Looking at some art sounds nice today",
+                    "pictures": [
+                        {
+                            "type": "image",
+                            "src": "/src/assets/activity/museum.jpg",
+                            "alt": ""
+                        }
+                    ]
+                },
+                {
+                    "id": "zoo",
+                    "title": "Zoo / Aquarium",
+                    "description": "I'm in the mood to see some animals",
+                    "pictures": [
+                        {
+                            "type": "image",
+                            "src": "/src/assets/activity/zoo.jpg",
+                            "alt": ""
+                        }
+                    ]
+                },
+                {
+                    "id": "shopping",
+                    "title": "Shopping",
+                    "description": "Let's go try and see if there's something to buy",
+                    "pictures": [
+                        {
+                            "type": "image",
+                            "src": "/src/assets/activity/shopping.jpg",
+                            "alt": ""
+                        }
+                    ]
+                },
+                {
+                    "id": "walk",
+                    "title": "Take a Walk",
+                    "description": "It's so pretty out, a nice slow meander sounds good",
+                    "pictures": [
+                        {
+                            "type": "image",
+                            "src": "/src/assets/activity/walk.jpg",
+                            "alt": ""
+                        }
+                    ]
+                },
+                {
+                    "id": "beach",
+                    "title": "Go to the Beach",
+                    "description": "Love the ocean and being by the sea. Let's enjoy it today!",
+                    "pictures": [
+                        {
+                            "type": "image",
+                            "src": "/src/assets/activity/beach.jpg",
+                            "alt": ""
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
