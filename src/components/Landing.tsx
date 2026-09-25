@@ -9,7 +9,7 @@ export const Landing: React.FC<LandingProps> = (props) => (
     <div className="landing-page">
         <img src={heroImg} className="hero-img" width="80%" alt="logo" />
         <div className="landing-text aligned-column-wrapper">
-            <h1>Help plan our evening</h1>
+            <h1>Will you help us plan our evening?</h1>
             <p className="aligned-column-child">
                 <span>
                     Help work with these fuzzy friends to come up with the
