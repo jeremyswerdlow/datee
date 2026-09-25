@@ -13,7 +13,7 @@
                     "pictures": [
                         {
                             "type": "image",
-                            "src": "/src/assets/location/in.jpg",
+                            "relativeSrcPath": "images/location/in.jpg",
                             "alt": ""
                         }
                     ]
@@ -25,7 +25,7 @@
                     "pictures": [
                         {
                             "type": "image",
-                            "src": "/src/assets/location/out.jpg",
+                            "relativeSrcPath": "images/location/out.jpg",
                             "alt": ""
                         }
                     ]
@@ -45,7 +45,7 @@
                     "pictures": [
                         {
                             "type": "image",
-                            "src": "/src/assets/attire/casual.jpg",
+                            "relativeSrcPath": "images/attire/casual.jpg",
                             "alt": ""
                         }
                     ]
@@ -57,7 +57,7 @@
                     "pictures": [
                         {
                             "type": "image",
-                            "src": "/src/assets/attire/nice.jpg",
+                            "relativeSrcPath": "images/attire/nice.jpg",
                             "alt": ""
                         }
                     ]
@@ -69,7 +69,7 @@
                     "pictures": [
                         {
                             "type": "image",
-                            "src": "/src/assets/attire/fancy.jpg",
+                            "relativeSrcPath": "images/attire/fancy.jpg",
                             "alt": ""
                         }
                     ]
@@ -81,7 +81,7 @@
                     "pictures": [
                         {
                             "type": "image",
-                            "src": "/src/assets/attire/formal.jpg",
+                            "relativeSrcPath": "images/attire/formal.jpg",
                             "alt": ""
                         }
                     ]
@@ -101,7 +101,7 @@
                     "pictures": [
                         {
                             "type": "image",
-                            "src": "/src/assets/cuisine/thai.jpg",
+                            "relativeSrcPath": "images/cuisine/thai.jpg",
                             "alt": ""
                         }
                     ]
@@ -113,7 +113,7 @@
                     "pictures": [
                         {
                             "type": "image",
-                            "src": "/src/assets/cuisine/chinese.jpg",
+                            "relativeSrcPath": "images/cuisine/chinese.jpg",
                             "alt": ""
                         }
                     ]
@@ -125,7 +125,7 @@
                     "pictures": [
                         {
                             "type": "image",
-                            "src": "/src/assets/cuisine/american.jpg",
+                            "relativeSrcPath": "images/cuisine/american.jpg",
                             "alt": ""
                         }
                     ]
@@ -137,7 +137,7 @@
                     "pictures": [
                         {
                             "type": "image",
-                            "src": "/src/assets/cuisine/mexican.jpg",
+                            "relativeSrcPath": "images/cuisine/mexican.jpg",
                             "alt": ""
                         }
                     ]
@@ -149,7 +149,7 @@
                     "pictures": [
                         {
                             "type": "image",
-                            "src": "/src/assets/cuisine/picnic.jpg",
+                            "relativeSrcPath": "images/cuisine/picnic.jpg",
                             "alt": ""
                         }
                     ]
@@ -161,7 +161,7 @@
                     "pictures": [
                         {
                             "type": "image",
-                            "src": "/src/assets/cuisine/fried_chicken.jpg",
+                            "relativeSrcPath": "images/cuisine/fried_chicken.jpg",
                             "alt": ""
                         }
                     ]
@@ -173,7 +173,7 @@
                     "pictures": [
                         {
                             "type": "image",
-                            "src": "/src/assets/cuisine/hotpot.jpg",
+                            "relativeSrcPath": "images/cuisine/hotpot.jpg",
                             "alt": ""
                         }
                     ]
@@ -185,7 +185,7 @@
                     "pictures": [
                         {
                             "type": "image",
-                            "src": "/src/assets/cuisine/bbq.jpg",
+                            "relativeSrcPath": "images/cuisine/bbq.jpg",
                             "alt": ""
                         }
                     ]
@@ -197,7 +197,7 @@
                     "pictures": [
                         {
                             "type": "image",
-                            "src": "/src/assets/cuisine/southern.jpg",
+                            "relativeSrcPath": "images/cuisine/southern.jpg",
                             "alt": ""
                         }
                     ]
@@ -209,7 +209,7 @@
                     "pictures": [
                         {
                             "type": "image",
-                            "src": "/src/assets/cuisine/korean.jpg",
+                            "relativeSrcPath": "images/cuisine/korean.jpg",
                             "alt": ""
                         }
                     ]
@@ -221,7 +221,7 @@
                     "pictures": [
                         {
                             "type": "image",
-                            "src": "/src/assets/cuisine/sushi.jpg",
+                            "relativeSrcPath": "images/cuisine/sushi.jpg",
                             "alt": ""
                         }
                     ]
@@ -233,7 +233,7 @@
                     "pictures": [
                         {
                             "type": "image",
-                            "src": "/src/assets/cuisine/ramen.jpg",
+                            "relativeSrcPath": "images/cuisine/ramen.jpg",
                             "alt": ""
                         }
                     ]
@@ -245,7 +245,7 @@
                     "pictures": [
                         {
                             "type": "image",
-                            "src": "/src/assets/cuisine/mala_skewers.jpg",
+                            "relativeSrcPath": "images/cuisine/mala_skewers.jpg",
                             "alt": ""
                         }
                     ]
@@ -257,7 +257,7 @@
                     "pictures": [
                         {
                             "type": "image",
-                            "src": "/src/assets/cuisine/seafood.jpg",
+                            "relativeSrcPath": "images/cuisine/seafood.jpg",
                             "alt": ""
                         }
                     ]
@@ -269,7 +269,7 @@
                     "pictures": [
                         {
                             "type": "image",
-                            "src": "/src/assets/cuisine/pub.jpg",
+                            "relativeSrcPath": "images/cuisine/pub.jpg",
                             "alt": ""
                         }
                     ]
@@ -289,7 +289,7 @@
                     "pictures": [
                         {
                             "type": "image",
-                            "src": "/src/assets/activity/none.jpg",
+                            "relativeSrcPath": "images/activity/none.jpg",
                             "alt": ""
                         }
                     ]
@@ -301,7 +301,7 @@
                     "pictures": [
                         {
                             "type": "image",
-                            "src": "/src/assets/activity/movie.jpg",
+                            "relativeSrcPath": "images/activity/movie.jpg",
                             "alt": ""
                         }
                     ]
@@ -313,7 +313,7 @@
                     "pictures": [
                         {
                             "type": "image",
-                            "src": "/src/assets/activity/museum.jpg",
+                            "relativeSrcPath": "images/activity/museum.jpg",
                             "alt": ""
                         }
                     ]
@@ -325,7 +325,7 @@
                     "pictures": [
                         {
                             "type": "image",
-                            "src": "/src/assets/activity/zoo.jpg",
+                            "relativeSrcPath": "images/activity/zoo.jpg",
                             "alt": ""
                         }
                     ]
@@ -337,7 +337,7 @@
                     "pictures": [
                         {
                             "type": "image",
-                            "src": "/src/assets/activity/shopping.jpg",
+                            "relativeSrcPath": "images/activity/shopping.jpg",
                             "alt": ""
                         }
                     ]
@@ -349,7 +349,7 @@
                     "pictures": [
                         {
                             "type": "image",
-                            "src": "/src/assets/activity/walk.jpg",
+                            "relativeSrcPath": "images/activity/walk.jpg",
                             "alt": ""
                         }
                     ]
@@ -361,7 +361,7 @@
                     "pictures": [
                         {
                             "type": "image",
-                            "src": "/src/assets/activity/beach.jpg",
+                            "relativeSrcPath": "images/activity/beach.jpg",
                             "alt": ""
                         }
                     ]

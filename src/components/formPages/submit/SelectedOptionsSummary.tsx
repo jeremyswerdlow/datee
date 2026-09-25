@@ -24,8 +24,8 @@ export const SelectedOptionsSummary: React.FC<SelectedOptionsSummaryProps> = (
                             {selection.optionTitle}: {selection.optionSelection}
                         </span>
                         <img
-                            key={selection.optionPrimaryImage.src}
-                            src={selection.optionPrimaryImage.src}
+                            key={selection.optionPrimaryImage.relativeSrcPath}
+                            src={`${import.meta.env.BASE_URL}/${selection.optionPrimaryImage.relativeSrcPath}`}
                             alt={selection.optionPrimaryImage.alt}
                         />
                     </div>

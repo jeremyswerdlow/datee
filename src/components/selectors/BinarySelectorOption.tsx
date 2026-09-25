@@ -8,7 +8,7 @@ export type BinarySelectorOption = {
 export type Picture = {
     type: string;
     value?: string;
-    src?: string;
+    relativeSrcPath?: string;
     alt?: string;
 };
 
@@ -43,7 +43,7 @@ export const convertFormOptionToBinarySelectorOption = (
                             return (
                                 <img
                                     id={`${formOption.id}-img-${idx}`}
-                                    src={p.src}
+                                    src={`${import.meta.env.BASE_URL}/${p.relativeSrcPath}`}
                                     alt={p.alt || formOption.description}
                                 />
                             );
