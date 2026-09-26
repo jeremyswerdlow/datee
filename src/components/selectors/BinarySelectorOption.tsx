@@ -1,4 +1,5 @@
 import type { ReactNode } from "react";
+import { convertRelativePublicPathToAbsolute } from "../../lib/conversions";
 
 export type BinarySelectorOption = {
     id: string;
@@ -43,7 +44,9 @@ export const convertFormOptionToBinarySelectorOption = (
                             return (
                                 <img
                                     id={`${formOption.id}-img-${idx}`}
-                                    src={`${import.meta.env.BASE_URL}/${p.relativeSrcPath}`}
+                                    src={convertRelativePublicPathToAbsolute(
+                                        p.relativeSrcPath!,
+                                    )}
                                     alt={p.alt || formOption.description}
                                 />
                             );

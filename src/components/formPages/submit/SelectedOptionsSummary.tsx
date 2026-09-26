@@ -1,3 +1,4 @@
+import { convertRelativePublicPathToAbsolute } from "../../../lib/conversions";
 import type { Picture } from "../../selectors/BinarySelectorOption";
 
 export type SelectedOptionProps = {
@@ -25,7 +26,9 @@ export const SelectedOptionsSummary: React.FC<SelectedOptionsSummaryProps> = (
                         </span>
                         <img
                             key={selection.optionPrimaryImage.relativeSrcPath}
-                            src={`${import.meta.env.BASE_URL}/${selection.optionPrimaryImage.relativeSrcPath}`}
+                            src={convertRelativePublicPathToAbsolute(
+                                selection.optionPrimaryImage.relativeSrcPath!,
+                            )}
                             alt={selection.optionPrimaryImage.alt}
                         />
                     </div>
